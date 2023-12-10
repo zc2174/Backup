@@ -1,0 +1,15 @@
+ul {
+  margin: 2rem;
+  padding-left: 1rem;
+  background-color: pink;
+}
+
+ol {
+  margin: 2rem;
+  padding: 1rem;
+  background-color: lavender;
+}
+
+.new-styles {
+  color: orange;
+}

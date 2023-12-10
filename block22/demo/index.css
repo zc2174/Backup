@@ -1,0 +1,117 @@
+html,
+body,
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: linear-gradient(
+    to right top,
+    #9fb8ad,
+    #92bcb0,
+    #83bfb5,
+    #70c2be,
+    #58c5c9,
+    #47c5d0,
+    #33c5d8,
+    #12c4e0,
+    #10c0e3,
+    #16bde5,
+    #20b9e7,
+    #2cb5e8
+  );
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+header img {
+  width: 200px;
+  height: 150px;
+}
+
+header p {
+  font-size: 48px;
+}
+
+a {
+  font-size: medium;
+  color: #0584ab;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+}
+
+.card {
+  width: 50%;
+}
+
+.card-detail {
+  width: 100%;
+}
+
+.card-detail,
+.card {
+  padding: 20px;
+  display: flex;
+  border-radius: 5px;
+  box-shadow: 0 1px 6px -2px black;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+#calendar {
+  width: 95%;
+}
+
+.card img,
+.card-detail img {
+  width: 150px;
+  height: 150px;
+  border-radius: 3px;
+  margin-right: 20px;
+}
+
+.card .name,
+.card-detail .name {
+  font-size: 3.4rem;
+}
+
+.card-detail p {
+  font-size: 1.4rem;
+  margin-bottom: 3px;
+}
+
+.card .username,
+.card-detail .username {
+  font-size: 1.8rem;
+  font-style: italic;
+  margin: 3px 0 10px;
+}
+
+.close-btn {
+  text-decoration: none;
+  color: black;
+}

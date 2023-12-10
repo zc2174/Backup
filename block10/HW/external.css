@@ -1,0 +1,29 @@
+@media (max-width: 1680px){
+    body{
+        margin: 0 auto !important;
+        padding: 0 !important;
+    }
+}
+
+section{
+    display:grid;
+    grid-template:
+    "one" 30%
+    "two" auto;
+    border: 1px solid black;
+    margin: 4px;
+    padding: 5px;
+
+}
+
+.one{
+    grid-area: one;
+}
+
+.two{
+    grid-area: two;
+}
+
+.three{
+    grid-area: three;
+}
